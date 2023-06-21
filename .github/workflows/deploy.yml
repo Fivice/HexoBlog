@@ -3,7 +3,7 @@ name: HEXO CI
 on:
   push:
     branches:
-    	- main      #<blog_source_branch>
+    	- master
 
 jobs:
   build:
