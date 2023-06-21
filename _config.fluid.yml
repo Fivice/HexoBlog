@@ -1,6 +1,18 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
+navbar:
+  blog_title: 书屋📚
+index:
+  slogan:
+    enable: true
+    text: Hello World
+    api:
+      enable: false
+      url: "https://v1.hitokoto.cn/"
+      method: "GET"
+      headers: {}
+      keys: ["hitokoto"]
 
 # Site
 title: 书屋📚
